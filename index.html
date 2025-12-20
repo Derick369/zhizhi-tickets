@@ -165,36 +165,35 @@
 </div>
 
 <script>
-    // 这里的数据未来会通过 GitHub Actions 自动更新
-    const data = [
-        {"artist": "蔡依林", "show_name": "Pleasure（愉悦主义）巡回演唱会2026", "city": "深圳站", "type": "演唱会"},
-        {"artist": "刘若英", "show_name": "【飞行日】2025巡回演唱会", "city": "深圳站", "type": "演唱会"},
-        {"artist": "张靓颖", "show_name": "“追”巡回演唱会", "city": "佛山站", "type": "演唱会"},
-        {"artist": "卫兰", "show_name": "Out of Frame 巡回演唱会", "city": "东莞站", "type": "演唱会"},
-        {"artist": "群星", "show_name": "2025顺德北滘仲夏音乐节", "city": "顺德", "type": "音乐节"},
-        {"artist": "蒙特利尔青年歌唱家", "show_name": "从百老汇到斯卡拉音乐会", "city": "广东", "type": "音乐会"},
-        {"artist": "SVN (伦敦西区)", "show_name": "Queens' Night 原卡组合演唱会", "city": "广东", "type": "演唱会"},
-        {"artist": "圣彼得堡芭蕾舞团", "show_name": "芭蕾舞剧《天鹅湖》", "city": "广东", "type": "舞蹈"}
-    ];
+    // 关键：fetch 会读取同目录下由 AI 自动生成的 results.json
+    fetch('results.json')
+        .then(response => response.json())
+        .then(data => {
+            const grid = document.getElementById('data-grid');
+            grid.innerHTML = ''; // 清空加载动画或旧内容
 
-    const grid = document.getElementById('data-grid');
-    
-    data.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-            <div class="card-inner">
-                <div class="artist">${item.artist}</div>
-                <div class="show-name">${item.show_name}</div>
-                <div class="tags">
-                    <span class="tag">📍 ${item.city}</span>
-                    <span class="tag type-tag">🔥 ${item.type}</span>
-                </div>
-            </div>
-        `;
-        grid.appendChild(card);
-    });
+            data.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div class="card-inner">
+                        <div class="artist">${item.artist}</div>
+                        <div class="show-name">${item.show_name}</div>
+                        <div class="tags">
+                            <span class="tag">📍 ${item.city}</span>
+                            <span class="tag type-tag">🔥 ${item.type}</span>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        })
+        .catch(err => {
+            console.error('读取数据失败:', err);
+            // 如果读取失败，可以显示一个提示
+            document.getElementById('data-grid').innerHTML = '<p style="text-align:center;">情报加载中，请稍后...</p>';
+        });
 </script>
-
 </body>
+
 </html>
