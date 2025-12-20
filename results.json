@@ -1,0 +1,19 @@
+[
+    {"artist": "群星", "show_name": "2025顺德北滘仲夏音乐节-乐队风云榜", "city": "佛山顺德", "type": "音乐节"},
+    {"artist": "蒙特利尔青年歌唱家", "show_name": "从百老汇到斯卡拉音乐会", "city": "广东", "type": "音乐会"},
+    {"artist": "英国皇家爱乐音乐会管弦乐团", "show_name": "拉尼亚凯亚音乐剧之夜新年音乐会", "city": "广东", "type": "音乐会"},
+    {"artist": "哥哥妹妹 (Church & Alice)", "show_name": "“做自己的光”出道26周年专场", "city": "广东", "type": "演唱会"},
+    {"artist": "俄罗斯交响爱乐乐团", "show_name": "2026肇庆新年音乐会", "city": "肇庆", "type": "音乐会"},
+    {"artist": "群星", "show_name": "2025星动音雄演唱会", "city": "深圳", "type": "演唱会"},
+    {"artist": "蔡依林 (Jolin Tsai)", "show_name": "Pleasure（愉悦主义）巡回演唱会2026", "city": "深圳", "type": "演唱会"},
+    {"artist": "刘若英 (Rene Liu)", "show_name": "【飞行日】2025巡回演唱会", "city": "深圳", "type": "演唱会"},
+    {"artist": "Gabriela Muñoz", "show_name": "互动式婚礼剧《也许，也许，也许》", "city": "广东", "type": "戏剧"},
+    {"artist": "SVN (伦敦西区原卡组合)", "show_name": "Queens' Night 演唱会", "city": "广东", "type": "演唱会"},
+    {"artist": "WetMen (俄罗斯型男)", "show_name": "型男水舞剧《雨中》", "city": "广东", "type": "戏剧"},
+    {"artist": "翁惠慧", "show_name": "翁惠慧钢琴独奏音乐会", "city": "广东", "type": "音乐会"},
+    {"artist": "张靓颖 (Jane Zhang)", "show_name": "“追”巡回演唱会", "city": "佛山", "type": "演唱会"},
+    {"artist": "广州交响乐团", "show_name": "交响乐《山海湾》", "city": "广东", "type": "音乐会"},
+    {"artist": "圣彼得堡古典芭蕾舞剧院", "show_name": "芭蕾舞《天鹅湖》", "city": "广东", "type": "舞蹈"},
+    {"artist": "萨格勒布爱乐乐团", "show_name": "新年音乐会", "city": "广东", "type": "音乐会"},
+    {"artist": "卫兰 (Janice Vidal)", "show_name": "Out of Frame 巡回演唱会", "city": "东莞", "type": "演唱会"}
+]
