@@ -165,35 +165,56 @@
 </div>
 
 <script>
-    // 关键：fetch 会读取同目录下由 AI 自动生成的 results.json
-    fetch('results.json')
-        .then(response => response.json())
-        .then(data => {
-            const grid = document.getElementById('data-grid');
-            grid.innerHTML = ''; // 清空加载动画或旧内容
+    // 自动加载函数
+    async function loadTickets() {
+        const grid = document.getElementById('data-grid');
+        grid.innerHTML = '<p style="text-align:center; color:var(--primary); font-size:1.2rem;">正在同步最新情报...</p>';
 
+        try {
+            // 在文件名后加时间戳，强制跳过浏览器缓存，读取最新数据
+            const response = await fetch('results.json?t=' + new Date().getTime());
+            if (!response.ok) throw new Error('无法读取数据文件');
+            
+            const data = await response.json();
+
+            if (!data || data.length === 0) {
+                grid.innerHTML = '<p style="text-align:center;">暂无近期演出情报</p>';
+                return;
+            }
+
+            // 清空提示，开始渲染
+            grid.innerHTML = '';
             data.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = `
                     <div class="card-inner">
-                        <div class="artist">${item.artist}</div>
-                        <div class="show-name">${item.show_name}</div>
+                        <div class="artist">${item.artist || '未知艺人'}</div>
+                        <div class="show-name">${item.show_name || '未知演出'}</div>
                         <div class="tags">
-                            <span class="tag">📍 ${item.city}</span>
-                            <span class="tag type-tag">🔥 ${item.type}</span>
+                            <span class="tag">📍 ${item.city || '广东'}</span>
+                            <span class="tag type-tag">🔥 ${item.type || '演出'}</span>
                         </div>
                     </div>
                 `;
                 grid.appendChild(card);
             });
-        })
-        .catch(err => {
-            console.error('读取数据失败:', err);
-            // 如果读取失败，可以显示一个提示
-            document.getElementById('data-grid').innerHTML = '<p style="text-align:center;">情报加载中，请稍后...</p>';
-        });
+            console.log('知知票务：情报加载完成');
+        } catch (err) {
+            console.error('加载失败:', err);
+            grid.innerHTML = `
+                <div style="text-align:center; padding:40px;">
+                    <p style="color:var(--accent);">⚠️ 情报站连接异常</p>
+                    <p style="font-size:0.8rem; color:#888;">请检查 results.json 是否已生成，或刷新页面重试</p>
+                </div>
+            `;
+        }
+    }
+
+    // 页面加载完毕后执行
+    window.onload = loadTickets;
 </script>
 </body>
 
 </html>
+
