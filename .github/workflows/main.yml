@@ -17,7 +17,11 @@ jobs:
         run: pip install requests beautifulsoup4 google-genai
       - name: Run Scraper and AI
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }} # 确保这里改成了 ZHIPU
+        run: |
+          python step1_get_titles.py
+          python step2_new.py
+       
         run: |
           python step1_get_titles.py
           python step2_new.py
