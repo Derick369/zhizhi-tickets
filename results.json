@@ -13,13 +13,13 @@
     },
     {
         "artist": "深圳市嬉习喜戏文化传播有限公司-Jenevieve 珍妮薇芙",
-        "show_name": "《CRYSALIS·蜕变》世界巡演-深圳站",
-        "city": "广东省",
+        "show_name": "CRYSALIS·蜕变 世界巡演-深圳站",
+        "city": "深圳市",
         "type": "营业性演出"
     },
     {
         "artist": "",
-        "show_name": "《疯狂的废纸世界》",
+        "show_name": "疯狂的废纸世界",
         "city": "广东省",
         "type": "营业性演出"
     },
@@ -32,7 +32,7 @@
     {
         "artist": "侧田",
         "show_name": "2026再一起演唱会COME TOGETHER-清远站",
-        "city": "广东省",
+        "city": "清远市",
         "type": "营业性演出"
     },
     {
@@ -43,19 +43,19 @@
     },
     {
         "artist": "2026马克西姆",
-        "show_name": "“边界”(二)古典跨界钢琴演奏会-珠海站",
-        "city": "广东省",
+        "show_name": "边界(二)古典跨界钢琴演奏会-珠海站",
+        "city": "珠海市",
         "type": "营业性演出"
     },
     {
         "artist": "大湾区恒洁之夜",
         "show_name": "佛山站",
-        "city": "广东省",
+        "city": "佛山市",
         "type": "营业性演出"
     },
     {
-        "artist": "《法国Grissinni Project格里西尼乐团2026巡回音乐会》",
-        "show_name": "",
+        "artist": "法国Grissinni Project 格里西尼乐团",
+        "show_name": "2026巡回音乐会",
         "city": "广东省",
         "type": "营业性演出"
     },
@@ -66,21 +66,21 @@
         "type": "营业性演出"
     },
     {
-        "artist": "《SUPERNOVA西区当红·伦敦西区音乐剧超新星音乐会》",
-        "show_name": "",
+        "artist": "西区当红·伦敦西区音乐剧超新星",
+        "show_name": "音乐会",
         "city": "广东省",
         "type": "营业性演出"
     },
     {
-        "artist": "《伏尔加河回响·俄罗斯经典歌曲音乐会》",
-        "show_name": "",
+        "artist": "伏尔加河回响·俄罗斯经典歌曲",
+        "show_name": "音乐会",
         "city": "广东省",
         "type": "营业性演出"
     },
     {
         "artist": "任贤齐",
-        "show_name": "《齐迹2026》演唱会-汕头站",
-        "city": "广东省",
+        "show_name": "齐迹2026 演唱会-汕头站",
+        "city": "汕头市",
         "type": "营业性演出"
     },
     {
@@ -90,26 +90,20 @@
         "type": "营业性演出"
     },
     {
-        "artist": "深圳室内乐团",
-        "show_name": "爵士音乐会",
-        "city": "广东省",
-        "type": "营业性演出"
-    },
-    {
         "artist": "范玮琪",
         "show_name": "「我们之间的事」2026 巡回演唱会深圳站",
-        "city": "广东省",
+        "city": "深圳市",
         "type": "营业性演出"
     },
     {
         "artist": "",
-        "show_name": "《当牛进化论》",
+        "show_name": "当牛进化论",
         "city": "广东省",
         "type": "营业性演出"
     },
     {
         "artist": "ECM欧洲之声室内乐团",
-        "show_name": "《爱乐之城》电影金曲烛光音乐会",
+        "show_name": "爱乐之城 电影金曲烛光音乐会",
         "city": "广东省",
         "type": "营业性演出"
     }
