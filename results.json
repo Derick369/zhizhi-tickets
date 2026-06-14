@@ -1,27 +1,27 @@
 [
     {
         "artist": "于文文",
-        "show_name": "边界巡回演唱会",
+        "show_name": "边界",
         "city": "深圳",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "韦礼安",
-        "show_name": "HI WE1 韦，您好巡回演唱会",
+        "show_name": "HI WE1 韦，您好",
         "city": "佛山",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "G.E.M.邓紫棋",
-        "show_name": "I AM GLORIA（我是歌莉雅）巡回演唱会",
+        "show_name": "I AM GLORIA（我是歌莉雅）",
         "city": "深圳",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "艾志恒Asen",
-        "show_name": "在雨后醒来 艾志恒Asen2026巡回演唱会",
+        "show_name": "在雨后醒来",
         "city": "深圳",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "",
@@ -37,49 +37,49 @@
     },
     {
         "artist": "",
-        "show_name": "英国国家剧院现场《万尼亚》",
+        "show_name": "万尼亚",
         "city": "",
-        "type": "放映"
+        "type": "高清放映"
     },
     {
         "artist": "",
-        "show_name": "英国国家剧院现场《伦敦生活》",
+        "show_name": "伦敦生活",
         "city": "",
-        "type": "放映"
+        "type": "高清放映"
     },
     {
         "artist": "阮惠暄",
-        "show_name": "在东莞市民谣流域餐饮管理有限公司驻场演出",
+        "show_name": "",
         "city": "东莞",
         "type": "驻场演出"
     },
     {
-        "artist": "亚历桑德罗",
-        "show_name": "最后的莫西干人——亚历桑德罗”印第安音乐品鉴会演出",
+        "artist": "",
+        "show_name": "最后的莫西干人——亚历桑德罗”印第安音乐品鉴会",
         "city": "",
-        "type": "音乐品鉴会"
+        "type": "演出"
     },
     {
-        "artist": "深圳歌剧舞剧院X深圳交响乐团X深圳音乐厅",
+        "artist": "深圳歌剧舞剧院,X深圳交响乐团,X深圳音乐厅",
         "show_name": "纪念莫扎特诞辰270周年 音乐会版歌剧《唐璜》",
         "city": "",
         "type": "音乐会"
     },
     {
-        "artist": "Pianoboy高至豪",
-        "show_name": "「复刻回忆」Pianoboy高至豪流行钢琴音乐会",
+        "artist": "「复刻回忆」Pianoboy高至豪",
+        "show_name": "流行钢琴音乐会",
         "city": "",
         "type": "音乐会"
     },
     {
-        "artist": "安德烈·伊万诺维奇",
-        "show_name": "《跨越古典音乐 200 年》安德烈·伊万诺维奇钢琴独奏音乐会",
+        "artist": "",
+        "show_name": "《跨越古典音乐 200 年》",
         "city": "",
         "type": "音乐会"
     },
     {
         "artist": "德国绅士合唱团",
-        "show_name": "德国绅士合唱团音乐会",
+        "show_name": "",
         "city": "",
         "type": "音乐会"
     },
@@ -103,15 +103,15 @@
     },
     {
         "artist": "安特耶·魏特哈斯",
-        "show_name": "安特耶·魏特哈斯演绎巴赫无伴奏小提琴全集音乐会",
+        "show_name": "巴赫无伴奏小提琴全集音乐会",
         "city": "",
         "type": "音乐会"
     },
     {
         "artist": "周华健",
-        "show_name": "少年的奇幻之旅3.0”巡回演唱会",
+        "show_name": "少年的奇幻之旅3.0",
         "city": "深圳",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "陈镇威与朋友们",
