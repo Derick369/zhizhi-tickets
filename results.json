@@ -1,25 +1,25 @@
 [
     {
         "artist": "于文文",
-        "show_name": "边界",
+        "show_name": "边界巡回演唱会",
         "city": "深圳",
         "type": "演唱会"
     },
     {
         "artist": "韦礼安",
-        "show_name": "HI WE1 韦，您好",
+        "show_name": "HI WE1 韦，您好巡回演唱会",
         "city": "佛山",
         "type": "演唱会"
     },
     {
         "artist": "G.E.M.邓紫棋",
-        "show_name": "I AM GLORIA（我是歌莉雅）",
+        "show_name": "I AM GLORIA（我是歌莉雅）巡回演唱会",
         "city": "深圳",
         "type": "演唱会"
     },
     {
         "artist": "艾志恒Asen",
-        "show_name": "在雨后醒来",
+        "show_name": "在雨后醒来 艾志恒Asen2026巡回演唱会",
         "city": "深圳",
         "type": "演唱会"
     },
@@ -37,21 +37,21 @@
     },
     {
         "artist": "",
-        "show_name": "万尼亚",
+        "show_name": "英国国家剧院现场《万尼亚》",
         "city": "",
-        "type": "高清放映"
+        "type": "放映"
     },
     {
         "artist": "",
-        "show_name": "伦敦生活",
+        "show_name": "英国国家剧院现场《伦敦生活》",
         "city": "",
-        "type": "高清放映"
+        "type": "放映"
     },
     {
         "artist": "",
         "show_name": "最后的莫西干人——亚历桑德罗",
         "city": "",
-        "type": "音乐品鉴会演出"
+        "type": "音乐品鉴会"
     },
     {
         "artist": "深圳歌剧舞剧院X深圳交响乐团X深圳音乐厅",
@@ -67,13 +67,13 @@
     },
     {
         "artist": "",
-        "show_name": "跨越古典音乐 200 年",
+        "show_name": "《跨越古典音乐 200 年》",
         "city": "",
         "type": "音乐会"
     },
     {
         "artist": "德国绅士合唱团",
-        "show_name": "",
+        "show_name": "音乐会",
         "city": "",
         "type": "音乐会"
     },
@@ -85,25 +85,25 @@
     },
     {
         "artist": "",
-        "show_name": "福尔摩斯的音乐探险",
+        "show_name": "法语音乐剧《福尔摩斯的音乐探险》",
         "city": "",
         "type": "音乐剧"
     },
     {
         "artist": "",
-        "show_name": "天鹅湖",
+        "show_name": "俄罗斯经典冰上芭蕾舞剧《天鹅湖》《胡桃夹子》",
         "city": "",
         "type": "芭蕾舞剧"
     },
     {
         "artist": "安特耶·魏特哈斯",
-        "show_name": "巴赫无伴奏小提琴全集",
+        "show_name": "巴赫无伴奏小提琴全集音乐会",
         "city": "",
         "type": "音乐会"
     },
     {
         "artist": "周华健",
-        "show_name": "少年的奇幻之旅3.0",
+        "show_name": "少年的奇幻之旅3.0巡回演唱会",
         "city": "深圳",
         "type": "演唱会"
     },
@@ -115,7 +115,7 @@
     },
     {
         "artist": "Stars Gala音乐剧明星音乐会——Broadway Queens",
-        "show_name": "",
+        "show_name": "Stars Gala音乐剧明星音乐会",
         "city": "",
         "type": "音乐剧"
     }
