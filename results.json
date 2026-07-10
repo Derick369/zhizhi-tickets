@@ -3,25 +3,25 @@
         "artist": "于文文",
         "show_name": "边界",
         "city": "深圳",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "韦礼安",
         "show_name": "HI WE1 韦，您好",
         "city": "佛山",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "G.E.M.邓紫棋",
         "show_name": "I AM GLORIA（我是歌莉雅）",
         "city": "深圳",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "艾志恒Asen",
         "show_name": "在雨后醒来",
         "city": "深圳",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "",
@@ -51,10 +51,10 @@
         "artist": "",
         "show_name": "最后的莫西干人——亚历桑德罗",
         "city": "",
-        "type": "音乐品鉴会"
+        "type": "音乐品鉴会演出"
     },
     {
-        "artist": "深圳歌剧舞剧院X深圳交响乐团X深圳音乐厅",
+        "artist": "深圳歌剧舞剧院,X深圳交响乐团,X深圳音乐厅",
         "show_name": "纪念莫扎特诞辰270周年 音乐会版歌剧《唐璜》",
         "city": "",
         "type": "音乐会"
@@ -69,7 +69,7 @@
         "artist": "",
         "show_name": "跨越古典音乐 200 年",
         "city": "",
-        "type": "音乐会"
+        "type": "钢琴独奏音乐会"
     },
     {
         "artist": "德国绅士合唱团",
@@ -91,7 +91,7 @@
     },
     {
         "artist": "",
-        "show_name": "天鹅湖",
+        "show_name": "天鹅湖,胡桃夹子",
         "city": "",
         "type": "芭蕾舞剧"
     },
@@ -105,7 +105,7 @@
         "artist": "周华健",
         "show_name": "少年的奇幻之旅3.0",
         "city": "深圳",
-        "type": "演唱会"
+        "type": "巡回演唱会"
     },
     {
         "artist": "陈镇威与朋友们",
@@ -117,6 +117,6 @@
         "artist": "Stars Gala音乐剧明星音乐会——Broadway Queens",
         "show_name": "",
         "city": "",
-        "type": "音乐会"
+        "type": "音乐剧"
     }
 ]
