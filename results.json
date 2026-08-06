@@ -13,7 +13,7 @@
     },
     {
         "artist": "Capper",
-        "show_name": "GAG LoungeGAG会客厅巡回演唱会--深圳站",
+        "show_name": "GAG Lounge2026GAG会客厅巡回演唱会--深圳站",
         "city": "深圳",
         "type": "演唱会"
     },
@@ -30,9 +30,9 @@
         "type": "演唱会"
     },
     {
-        "artist": "无",
+        "artist": "",
         "show_name": "2026《迎中秋・家乡情》演唱会",
-        "city": "无",
+        "city": "",
         "type": "演唱会"
     }
 ]
