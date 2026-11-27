@@ -54,7 +54,7 @@
         "type": "营业性演出"
     },
     {
-        "artist": "顺德新年音乐会",
+        "artist": "未知",
         "show_name": "<寰宇交响，凤城乐章>顺德新年音乐会",
         "city": "顺德",
         "type": "营业性演出"
@@ -62,12 +62,6 @@
     {
         "artist": "RaceBace",
         "show_name": "「RE:BIRTH」佛山·<减>单爱(RaceBace2026巡演佛山站)",
-        "city": "佛山",
-        "type": "营业性演出"
-    },
-    {
-        "artist": "李昊【Hunter】",
-        "show_name": "（猎人）巡回演唱会佛山站",
         "city": "佛山",
         "type": "营业性演出"
     }
